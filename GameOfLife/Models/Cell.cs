@@ -1,18 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
-namespace GameOfLife
+namespace GameOfLife.Models
 {
-  public class Cell
+  public class Cell : _Cell
   {
     private bool _lifeStatus;
+    private bool _nextLifeStatus;
 
     public Cell(bool initLifeStatus = false)
     {
       _lifeStatus = initLifeStatus;
+    }
+
+    public void CalculateNextState(int nrOfNeighbors)
+    {
+      var shouldLive = rulesOfLife.Where(it => it.ShouldBeHandled(this.IsAlive())).All(decideIfIt => decideIfIt.ShouldLive(nrOfNeighbors));
+      _nextLifeStatus = shouldLive;
+    }
+    public void CommenceNextEpoch()
+    {
+      _lifeStatus = _nextLifeStatus;
     }
 
     public bool IsAlive()

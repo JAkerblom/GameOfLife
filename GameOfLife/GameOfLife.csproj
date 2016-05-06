@@ -40,11 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cell.cs" />
-    <Compile Include="_old\Program.cs" />
+    <Compile Include="Rules_of_life\ALiveCellWithFewerThanTwoNeighborsRule.cs" />
+    <Compile Include="Rules_of_life\AliveCellWithMoreThanThreeALiveNeighborsRule.cs" />
+    <Compile Include="Rules_of_life\AliveCellWithTwoOrThreeNeighborsRule.cs" />
+    <Compile Include="Models\Cell.cs" />
+    <Compile Include="Models\_Cell.cs" />
+    <Compile Include="Rules_of_life\DeadCellWithThreeAliveNeighborsRule.cs" />
+    <Compile Include="Rules_of_life\ILifeRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Simulator.cs" />
+    <Compile Include="Models\Simulator.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using GameOfLife;
+using GameOfLife.Models;
 
 namespace GameOfLife.Runner
 {
@@ -9,8 +7,8 @@ namespace GameOfLife.Runner
   {
     static void Main(string[] args)
     {
-      GUISettings gs = new GUISettings() { Width = 100, Height = 80 };
-      Simulator s = new Simulator(gs);
+      GUISettings gs = new GUISettings() { Width = 20, Height = 16 };
+      Simulator sim = new Simulator(gs);
       
       Console.WriteLine("Choose your first option:");
       Console.WriteLine("1. Start with default life initialization setup");
@@ -21,9 +19,13 @@ namespace GameOfLife.Runner
       switch (start)
       {
         case "1":
-          s.ToggleCell(5, 5);
-          s.ToggleCell(5, 6);
-          s.ToggleCell(5, 7);
+          //sim.GetCell(1, 4).Awake();
+          //sim.GetCell(2, 3).Awake();
+          //sim.GetCell(2, 4).Awake();
+          sim.GetCell(5, 5).Awake();
+          sim.GetCell(5, 6).Awake();
+          sim.GetCell(5, 7).Awake();
+
           break;
         case "2":
           Console.WriteLine(" Feed the application with coordinates.");
@@ -33,6 +35,30 @@ namespace GameOfLife.Runner
         default:
           Console.WriteLine("You entered a faulty command! Exiting");
           break;
+      }
+
+      OutputBoard(sim);
+      sim.LetAnEpochPass();
+      OutputBoard(sim);
+      sim.LetAnEpochPass();
+      OutputBoard(sim);
+
+      Console.ReadLine();
+    }
+
+    private static void OutputBoard(Simulator sim)
+    {
+      var line = new String('-', sim.GetGUISettings().Width);
+      Console.WriteLine(line);
+
+      for (int y = sim.GetGUISettings().LowerBoundVertical; y <= sim.GetGUISettings().Height; y++)
+      {
+        for (int x = sim.GetGUISettings().LowerBoundHorizontal; x <= sim.GetGUISettings().Width; x++)
+        {
+          Console.Write(sim.GetCell(x, y).IsAlive() ? "1" : "0");
+        }
+
+        Console.WriteLine();
       }
     }
   }

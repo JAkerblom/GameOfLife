@@ -52,7 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game_Is_Created.cs" />
+    <Compile Include="When_A_Cell_Is_Created.cs" />
+    <Compile Include="When_A_Simulator_Is_Created.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
