@@ -6,7 +6,6 @@ namespace GameOfLife.Models
   public class Simulator
   {
     private GUISettings _gUISettings;
-    //private List<Cell> _cells;
     private Dictionary<Tuple<int, int>, Cell> _cells;
 
     public Simulator(GUISettings gUISettings)
@@ -76,18 +75,6 @@ namespace GameOfLife.Models
     {
       return _gUISettings;
     }
-
-    //public int GetWidth()
-    //{
-    //  return _gUISettings.Width;
-    //}
-
-    //public int GetHeight()
-    //{
-    //  return _gUISettings.Height;
-    //}
-
-    //public int GetLowerBound
   }
 
   public class GUISettings
