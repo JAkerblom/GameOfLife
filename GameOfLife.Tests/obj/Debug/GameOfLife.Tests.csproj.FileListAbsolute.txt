@@ -1,0 +1,15 @@
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\GameOfLife.Tests.dll
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\GameOfLife.Tests.pdb
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\FluentAssertions.Core.dll
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\FluentAssertions.dll
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\GameOfLife.dll
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\nunit.framework.dll
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\GameOfLife.pdb
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\FluentAssertions.pdb
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\FluentAssertions.xml
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\FluentAssertions.Core.xml
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\bin\Debug\nunit.framework.xml
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\obj\Debug\GameOfLife.Tests.csprojResolveAssemblyReference.cache
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\obj\Debug\GameOfLife.Tests.dll
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife.Tests\obj\Debug\GameOfLife.Tests.pdb
