@@ -2,7 +2,7 @@
 
 namespace GameOfLife.Models
 {
-  public class Cell : _Cell
+  public class Cell : CellDNA
   {
     private bool _lifeStatus;
     private bool _nextLifeStatus;

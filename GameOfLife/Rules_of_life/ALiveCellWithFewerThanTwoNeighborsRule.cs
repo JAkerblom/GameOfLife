@@ -2,7 +2,7 @@
 
 namespace GameOfLife.Rules_of_life
 {
-  internal class ALiveCellWithFewerThanTwoNeighborsRule : ILifeRule
+  internal class AliveCellWithFewerThanTwoNeighborsRule : ILifeRule
   {
     public bool ShouldBeHandled(bool isAlive)
     {

@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Rules_of_life\ALiveCellWithFewerThanTwoNeighborsRule.cs" />
+    <Compile Include="Rules_of_life\AliveCellWithFewerThanTwoNeighborsRule.cs" />
     <Compile Include="Rules_of_life\AliveCellWithMoreThanThreeALiveNeighborsRule.cs" />
     <Compile Include="Rules_of_life\AliveCellWithTwoOrThreeNeighborsRule.cs" />
     <Compile Include="Models\Cell.cs" />
