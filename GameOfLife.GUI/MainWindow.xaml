@@ -5,15 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GameOfLife.GUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Conway's Game of Life" Height="350" Width="525"
+        Name="GameOfLifeWindow"
+        Loaded="Window_Loaded">
   <Grid>
-    <Grid HorizontalAlignment="Left" Height="301" Margin="472,10,-292.333,0" VerticalAlignment="Top" Width="339"/>
-    <Button x:Name="button" Content="Start Game" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" Width="147" Click="button_Click" Height="28"/>
-    <Slider x:Name="slider" HorizontalAlignment="Left" Margin="10,189,0,0" VerticalAlignment="Top" Width="147"/>
-    <Label x:Name="label" Content="Speed" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Width="147"/>
-    <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="147" SelectionChanged="comboBox_SelectionChanged"/>
+    <Grid x:Name="simGrid" HorizontalAlignment="Left" Height="300" Margin="169,10,0,0" VerticalAlignment="Top" Width="340"/>
     <Label x:Name="label1" Content="Pre-sets" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="155"/>
-    <Button x:Name="button1" Content="Randomize" HorizontalAlignment="Left" Margin="88,121,0,0" VerticalAlignment="Top" Width="69" Click="button1_Click"/>
-
+    <ComboBox x:Name="presetPicker" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="147" SelectionChanged="comboBox_SelectionChanged"/>
+    <Button x:Name="randomizeButton" Content="Randomize" HorizontalAlignment="Left" Margin="88,121,0,0" VerticalAlignment="Top" Width="69" Click="button1_Click"/>
+    <Label x:Name="label2" Content="Speed" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Width="147"/>
+    <Slider x:Name="speedSlider" HorizontalAlignment="Left" Margin="10,189,0,0" VerticalAlignment="Top" Width="147"/>
+    <Button x:Name="startButton" Content="Start Game" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" Width="147" Click="button_Click" Height="28"/>
   </Grid>
 </Window>

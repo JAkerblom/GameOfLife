@@ -2,3 +2,4 @@ C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\
 C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife\bin\Debug\GameOfLife.pdb
 C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife\obj\Debug\GameOfLife.dll
 C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife\obj\Debug\GameOfLife.pdb
+C:\Users\JAkerblom\Documents\Visual Studio 2015\Projects\My_CIK_code\GameOfLife\GameOfLife\obj\Debug\GameOfLife.csprojResolveAssemblyReference.cache

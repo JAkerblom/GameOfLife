@@ -44,7 +44,7 @@
     <Compile Include="Rules_of_life\AliveCellWithMoreThanThreeALiveNeighborsRule.cs" />
     <Compile Include="Rules_of_life\AliveCellWithTwoOrThreeNeighborsRule.cs" />
     <Compile Include="Models\Cell.cs" />
-    <Compile Include="Models\_Cell.cs" />
+    <Compile Include="Models\CellDNA.cs" />
     <Compile Include="Rules_of_life\DeadCellWithThreeAliveNeighborsRule.cs" />
     <Compile Include="Rules_of_life\ILifeRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
